@@ -16,14 +16,14 @@ public class Test2798 {
 		for(int i = 0 ; i<n; i++) {
 			array[i] = sc.nextInt();
 		}
-		
+		//j를 1, k로 2를 썼을 때 통과가 안되서, 참조하니
+		//j = i+1, k=j+1로 써서 통과가 됬다...쩝;;
 		for(int i =0; i<n-2; i++) { 
-			for(int j = 1; j<n-1; j++) {
-				for(int k= 2; k<n; k++) {
+			for(int j = i+1; j<n-1; j++) {
+				for(int k= j+1; k<n; k++) {
 						int x = array[i]+ array[j]+ array[k];
 						if(m >= x) {
 							sum = Math.max(sum, x);
-							
 					}
 				}
 			}
