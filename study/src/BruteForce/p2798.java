@@ -31,7 +31,7 @@ public class p2798 {
 
 		a : for (int x = 0; x < N - 2; x++) {
 			for (int y = x + 1; y < N - 1; y++) {
-				for (int z = x + 2; z < N; z++) {
+				for (int z = y + 1; z < N; z++) {
 
 					sum1 = a[x] + a[y] + a[z];
 

@@ -37,9 +37,6 @@ public class p2231 {
 
 		}
 
-		else {
-			System.out.println("입력 값이 벗어납니다.");
-		}
 	}
 
 }

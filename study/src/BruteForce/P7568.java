@@ -38,7 +38,7 @@ public class P7568 {
 		
 		
 		for(int i : result) {
-			System.out.println((i+1)+" ");
+			System.out.println((i+1)+"");
 		}
 		
 		
